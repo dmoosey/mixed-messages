@@ -1,0 +1,15 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "The program will output a random message each time it is ran.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Moore",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
