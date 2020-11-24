@@ -26,6 +26,7 @@ function unlikelyQuote(authorArr){
         // Combine the data and output to the user
         console.log(`\n\n\n'${quote}' - ${authorArr[a_index]} (${year})\n\n\n`);
     })
+    .catch(err => console.log(err));
 };
 
 unlikelyQuote(rappers);
